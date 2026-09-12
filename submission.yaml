@@ -23,12 +23,10 @@ team:
       email: "24bca064@charusat.edu.in"
     - name: "Kirtan Chauhan"
       email: "24bca019@charusat.edu.in"
-
-                            
 submission:
-      title: "ShipSmart AI"
+  title: "ShipSmart AI"
 
-      problem_statement: >
+  problem_statement: >
         Logistics teams face supply chain disruptions that can delay shipments,
         reduce fleet utilisation, and create cold-chain compliance risks. They
         need a faster way to identify affected shipments, find alternatives,
@@ -47,8 +45,8 @@ submission:
        -  "Fleet utilisation optimisation"
        -  "Cold-chain temperature alert monitoring"
 
-      tech_stack:
-       languages: ["Python", "HTML", "CSS", "JavaScript"]
+  tech_stack:
+     languages: ["Python", "HTML", "CSS", "JavaScript"]
        frameworks: ["Flask"]
        ibm_technologies: ["watsonx.ai", "IBM Bob"]
        databases: ["SQLite"]
@@ -70,7 +68,7 @@ artifacts:
   source_code: "src/"
   setup_guide: "docs/setup-guide.md"
   architecture_doc: "docs/architecture.md"
-  demo_video: "demo/demo-video-link.txt"   # URL to hosted video (YouTube, Loom, Box)
-  live_demo: "demo/live-demo-url.txt"      # URL to deployed demo (optional)
+  demo_video: "demo/demo-video-link.txt"
+  live_demo: "demo/live-demo-url.txt"
   screenshots: "demo/screenshots/"
   presentation: "presentation/"
