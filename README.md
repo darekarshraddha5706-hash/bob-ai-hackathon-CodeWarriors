@@ -1,4 +1,4 @@
-# 🚀 [Your Project Title Here]
+# 🚀 title: "ShipSmart AI"
 
 > ⚠️ **Replace everything in `[ ]` brackets with your actual content before submission.**
 
@@ -8,10 +8,10 @@
 
 | Field | Value |
 |---|---|
-| **Team Name** | [Your Team Name] |
-| **Track** | [AI / DevOps / Sustainability / Open] |
-| **Team Lead** | [Name] — [email@ibm.com] |
-| **Members** | [Name 1], [Name 2], [Name 3] |
+| **Team Name** | RouteX AI |
+| **Track** |  AI  |
+| **Team Lead** | Shraddha Darekar – darekarshraddha5706@gmail.com |
+| **Members** | Shraddha Darekar, Ved Bhojani ,Misbah Khokhar, Kirtan Chauhan|
 
 ---
 
@@ -19,7 +19,7 @@
 
 > In 2–3 sentences: What problem does your project solve? Who experiences this problem?
 
-[Describe the real-world problem your project addresses. Be specific about who the user is and what pain point they face.]
+ShipSmart AI addresses supply chain disruptions that can delay shipments, reduce fleet utilisation, and create cold-chain compliance risks. Logistics teams need a faster way to identify affected shipments, recommend alternative routes, redeploy idle fleet assets, and detect temperature excursions.
 
 ---
 
@@ -27,29 +27,34 @@
 
 > In 2–3 sentences: What did you build? How does it solve the problem above?
 
-[Describe your solution clearly. Explain the core mechanism — what makes it work.]
+# 💡 Solution
+
+> ShipSmart AI is an AI-powered supply chain assistant that helps logistics teams identify shipments affected by disruptions and recommend suitable alternative routes. It also helps identify idle fleet assets and monitor cold-chain temperature alerts so teams can respond faster and reduce operational risks.
 
 ---
 
 ## ✨ Key Features
 
-- **Feature 1:** [Brief description — e.g., "Real-time anomaly detection using watsonx.ai"]
-- **Feature 2:** [Brief description]
-- **Feature 3:** [Brief description]
-- **Feature 4:** [Optional]
-- **Feature 5:** [Optional]
+
+
+- **Disruption Detection:** Identifies shipments affected by active supply chain disruptions.
+- **Shipment Risk Analysis:** Highlights shipments that may face delays or operational risks.
+- **AI Route Recommendation:** Suggests alternative routes for affected shipments.
+- **Fleet Optimisation:** Identifies idle fleet assets that can be redeployed.
+- **Cold-Chain Monitoring:** Detects temperature excursions and highlights potential compliance risks.
 
 ---
 
 ## 🛠️ Tech Stack
 
+
 | Category | Technologies |
 |---|---|
-| **Languages** | [e.g., Python, TypeScript] |
-| **Frameworks** | [e.g., FastAPI, React] |
-| **IBM Technologies** | [e.g., watsonx.ai, IBM Bob, IBM Cloud] |
-| **Databases** | [e.g., PostgreSQL, Redis] |
-| **Other** | [e.g., Docker, GitHub Actions] |
+| **Languages** | Python, HTML, CSS, JavaScript |
+| **Frameworks** | Flask |
+| **IBM Technologies** | IBM watsonx.ai, IBM Bob |
+| **Databases** | SQLite |
+| **Other** | GitHub, GitHub Actions |
 
 ---
 
@@ -73,7 +78,8 @@
 
 ## ⚡ How to Run
 
-> **Copy these exact steps from your [`docs/setup-guide.md`](docs/setup-guide.md)**
+
+> The project is currently under development. Setup and run instructions will be added after the application implementation is completed.
 
 ```bash
 # 1. Clone the repo
@@ -95,27 +101,26 @@ cp .env.example .env
 
 ## 🖥️ Demo
 
+## 🖥️ Demo
+
 | Artifact | Link |
 |---|---|
-| 📹 Demo Video | [See demo/demo-video-link.txt](demo/demo-video-link.txt) |
-| 🌐 Live Demo | [See demo/live-demo-url.txt](demo/live-demo-url.txt) |
-| 🖼️ Screenshots | [See demo/screenshots/](demo/screenshots/) |
-| 📊 Presentation | [See presentation/slides.pdf](presentation/) |
+| 📹 Demo Video | To be added |
+| 🌐 Live Demo | Not deployed |
+| 🖼️ Screenshots | To be added |
+| 📊 Presentation | To be added |
 
 ---
 
 ## ⚠️ Known Limitations
 
-> Be honest — judges appreciate transparency over overclaiming.
-
-- [Limitation 1: e.g., "Authentication is mocked — not production-ready"]
-- [Limitation 2: e.g., "Only tested on Chrome"]
-- [Limitation 3: e.g., "Feature X is scaffolded but not fully implemented"]
+- The initial version uses sample logistics and fleet data.
+- Real-time external logistics and IoT data integration is not included in the initial prototype.
+- Authentication and production-level security are not implemented.
 
 ---
 
 ## 🏅 What We're Most Proud Of
 
-[Tell the judges what part of your submission is strongest and worth paying close attention to.]
-
+We are proud of building a practical AI-assisted solution that brings disruption detection, shipment risk analysis, route recommendation, fleet utilisation, and cold-chain monitoring together in one platform for logistics teams.
 ---
