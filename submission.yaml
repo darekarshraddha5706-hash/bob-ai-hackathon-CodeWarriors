@@ -24,8 +24,8 @@ team:
     - name: "Kirtan Chauhan"
       email: "24bca019@charusat.edu.in"
 
-                               # e.g., "Real-time pipeline anomaly detection using watsonx.ai"
-    submission:
+                            
+submission:
       title: "ShipSmart AI"
 
       problem_statement: >
