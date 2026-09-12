@@ -99,7 +99,6 @@ cp .env.example .env
 
 ---
 
-## 🖥️ Demo
 
 ## 🖥️ Demo
 
