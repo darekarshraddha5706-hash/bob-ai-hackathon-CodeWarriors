@@ -2,29 +2,28 @@
 
 **An AI-powered supply chain assistant for disruption detection and intelligent route optimization.**
 
+---
+
 ## 👥 Team
 
 | Field | Value |
 |---|---|
 | **Team Name** | RouteX AI |
-| **Track** |  AI  |
+| **Track** | AI |
 | **Team Lead** | Shraddha Darekar – darekarshraddha5706@gmail.com |
-| **Members** | Shraddha Darekar, Ved Bhojani ,Misbah Khokhar, Kirtan Chauhan|
+| **Members** | Shraddha Darekar, Ved Bhojani, Misbah Khokhar, Kirtan Chauhan |
 
 ---
 
 ## 🎯 Problem Statement
 
-
-ShipSmart AI addresses supply chain disruptions that can delay shipments, reduce fleet utilisation, and create cold-chain compliance risks. Logistics teams need a faster way to identify affected shipments, recommend alternative routes, redeploy idle fleet assets, and detect temperature excursions.
+Logistics teams face supply chain disruptions that can delay shipments, reduce fleet utilisation, and create cold-chain compliance risks. They need a faster way to identify affected shipments, find alternatives, and respond to operational risks.
 
 ---
 
-
-
 ## 💡 Solution
 
-> ShipSmart AI is an AI-powered supply chain assistant that helps logistics teams identify shipments affected by disruptions and recommend suitable alternative routes. It also helps identify idle fleet assets and monitor cold-chain temperature alerts so teams can respond faster and reduce operational risks.
+ShipSmart AI is an AI-powered supply chain assistant that identifies disruption-affected shipments, recommends alternative routes, helps identify idle fleet assets for redeployment, and monitors cold-chain alerts. By integrating IBM watsonx.ai, the system provides intelligent decision support to logistics teams.
 
 ---
 
@@ -61,9 +60,9 @@ ShipSmart AI addresses supply chain disruptions that can delay shipments, reduce
 │   └── setup-guide.md
 ├── demo/                 # Demo artifacts
 │   ├── screenshots/      # App screenshots
-│   └── demo-video-link.txt  # Link to demo video
+│   └── demo-video-link.txt
 ├── presentation/         # Slide deck
-└── ├── submission.yaml       # Structured submission metadata
+├── submission.yaml       # Structured submission metadata
 └── README.md             # This file
 ```
 
@@ -107,10 +106,8 @@ The application will be available at `http://localhost:5000`
 |---|---|
 | 📹 Demo Video | In progress |
 | 🌐 Live Demo | Development build |
-| 🖼️ Screenshots | See `demo/screenshots/` |
-| 📊 Presentation | See `presentation/` |
-
-
+| 🖼️ Screenshots | See demo/screenshots/ |
+| 📊 Presentation | See presentation/ |
 
 ---
 
@@ -119,7 +116,7 @@ The application will be available at `http://localhost:5000`
 - The initial version uses sample logistics and fleet data.
 - Real-time external logistics and IoT data integration is not included in the initial prototype.
 - Authentication and production-level security are not implemented in this prototype.
-- API rate limiting for IBM watsonx.ai is not yet configured for production scale. 
+- API rate limiting for IBM watsonx.ai is not yet configured for production scale.
 
 ---
 
@@ -132,10 +129,10 @@ We are proud of bringing disruption detection, shipment risk analysis, route rec
 ## 📚 Documentation
 
 For detailed documentation, see:
-- **Problem Statement:** [docs/problem-statement.md](docs/problem-statement.md)
-- **Solution Overview:** [docs/solution-overview.md](docs/solution-overview.md)
-- **Architecture:** [docs/architecture.md](docs/architecture.md)
-- **Setup Guide:** [docs/setup-guide.md](docs/setup-guide.md)
+- **Problem Statement:** docs/problem-statement.md
+- **Solution Overview:** docs/solution-overview.md
+- **Architecture:** docs/architecture.md
+- **Setup Guide:** docs/setup-guide.md
 
 ---
 
