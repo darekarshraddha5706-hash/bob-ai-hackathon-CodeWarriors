@@ -23,43 +23,39 @@ team:
       email: "24bca064@charusat.edu.in"
     - name: "Kirtan Chauhan"
       email: "24bca019@charusat.edu.in"
+
 submission:
   title: "ShipSmart AI"
-
   problem_statement: >
-        Logistics teams face supply chain disruptions that can delay shipments,
-        reduce fleet utilisation, and create cold-chain compliance risks. They
-        need a faster way to identify affected shipments, find alternatives,
-        and respond to operational risks.
-
-      solution_summary: >
-        ShipSmart AI is an AI-powered supply chain assistant that identifies
-        disruption-affected shipments, recommends alternative routes, helps
-        identify idle fleet assets for redeployment, and monitors cold-chain
-        alerts.
-
-      key_features:
-       -  "Disruption-affected shipment identification"
-       -  "Shipment risk analysis"
-       -  "AI route recommendation"
-       -  "Fleet utilisation optimisation"
-       -  "Cold-chain temperature alert monitoring"
-
+    Logistics teams face supply chain disruptions that can delay shipments,
+    reduce fleet utilisation, and create cold-chain compliance risks. They
+    need a faster way to identify affected shipments, find alternatives,
+    and respond to operational risks.
+  solution_summary: >
+    ShipSmart AI is an AI-powered supply chain assistant that identifies
+    disruption-affected shipments, recommends alternative routes, helps
+    identify idle fleet assets for redeployment, and monitors cold-chain
+    alerts.
+  key_features:
+    - "Disruption-affected shipment identification"
+    - "Shipment risk analysis"
+    - "AI route recommendation"
+    - "Fleet utilisation optimisation"
+    - "Cold-chain temperature alert monitoring"
   tech_stack:
-     languages: ["Python", "HTML", "CSS", "JavaScript"]
-       frameworks: ["Flask"]
-       ibm_technologies: ["watsonx.ai", "IBM Bob"]
-       databases: ["SQLite"]
-       other: ["GitHub", "GitHub Actions"]
+    languages: ["Python", "HTML", "CSS", "JavaScript"]
+    frameworks: ["Flask"]
+    ibm_technologies: ["watsonx.ai", "IBM Bob"]
+    databases: ["SQLite"]
+    other: ["GitHub", "GitHub Actions"]
+  what_we_are_most_proud_of: >
+    We are proud of bringing disruption detection, shipment risk analysis,
+    route recommendation, fleet optimisation, and cold-chain monitoring
+    together in one practical platform.
+  known_limitations: >
+    The prototype uses sample logistics and fleet data. Real-time external
+    logistics and IoT integrations are not included in the initial version.
 
-      what_we_are_most_proud_of: >
-       We are proud of bringing disruption detection, shipment risk analysis,
-       route recommendation, fleet optimisation, and cold-chain monitoring
-       together in one practical platform.
-
-      known_limitations: >
-        The prototype uses sample logistics and fleet data. Real-time external
-        logistics and IoT integrations are not included in the initial version.
 # =============================================================================
 # ARTIFACT LOCATIONS
 # These paths are relative to the repo root. Only change if you moved files.
